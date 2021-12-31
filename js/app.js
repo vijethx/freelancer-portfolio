@@ -3,6 +3,16 @@ const skills_bars = document.querySelectorAll(".skill-progress");
 const skills_wrap = document.querySelector(".skills");
 const records_wrap = document.querySelector(".records");
 const records_numbers = document.querySelectorAll(".number");
+const footer_input = document.querySelector(".footer-input");
+
+footer_input.addEventListener("focus", () => {
+  footer_input.classList.add("focus");
+})
+
+footer_input.addEventListener("blur", () => {
+  if(footer_input.value != "") return;
+  footer_input.classList.remove("focus");
+})
 
 filter_btns.forEach((btn) => {
 	btn.addEventListener("click", () => {
