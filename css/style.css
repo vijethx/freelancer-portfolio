@@ -879,3 +879,105 @@ header .circle {
 }
 
 /* End Blog */
+
+/* Testimonials */
+
+.testimonials {
+	background-color: var(--light-two);
+	overflow: hidden;
+}
+
+.testi-content {
+	margin-top: 6rem;
+}
+
+.reviews {
+	overflow: hidden;
+}
+
+.review {
+	position: relative;
+	padding: 2rem 1.5rem;
+}
+
+.quote {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: var(--main-color);
+	opacity: 0.04;
+	font-size: 8rem;
+}
+
+.rate {
+	display: flex;
+	font-size: 1.4rem;
+	color: #ffd700;
+	margin-bottom: 1.5rem;
+}
+.rate i {
+	margin-right: 0.3rem;
+}
+
+.review-text {
+	font-size: 1.35rem;
+	font-weight: 300;
+	color: #444;
+	line-height: 1.7;
+}
+
+.review-info {
+	margin-top: 2rem;
+}
+
+.review-name {
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: var(--dark-one);
+}
+
+.review-job {
+	font: size 1.15rem;
+	font-weight: 300;
+	color: #777;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+	display: none;
+}
+
+.review-nav {
+	bottom: 2.2rem;
+	top: initial;
+	font-size: 1.8rem;
+	color: var(--main-color);
+}
+
+.swiper-container {
+	margin-top: 50px;
+	position: relative;
+}
+
+.arrow-left {
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+
+.arrow-right {
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+
+.swiper-button-next {
+	right: 2rem;
+	left: initial;
+}
+
+.swiper-button-prev {
+	right: 4.5rem;
+	left: initial;
+}
+/* End Testimonials */
